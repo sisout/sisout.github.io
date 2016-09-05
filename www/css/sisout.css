@@ -1,0 +1,156 @@
+#header {
+	background-color: #f2f2f2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Poiret One', cursive;
+	z-index: 4;
+}
+
+body {
+	background-color: #f2f2f2;
+	overflow-x: hidden;
+}
+
+nav {
+	height: 70px;
+}
+
+.tabs-indicator {
+	color: orange;
+}
+
+.topo-fixo {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+}
+
+img,
+.logotipo {
+	padding: 10px;
+}
+
+.descricao {
+	font-size: 1.25rem;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.fullscreen {
+	width: 100%;
+	z-index: -2;
+	opacity: 0.7;
+}
+
+.bg-video {
+	background-color: rgba(0, 0, 0, 0.85);
+	z-index: -2;
+	top: -18px;
+}
+
+.bg-responsive {
+	background-image: url(../images/bg-default.jpg);
+	width: cover;
+	height: cover;
+}
+
+@font-face {
+	font-family: font-titulo;
+	src: url(../fonts/Bigmouth.otf);
+}
+
+.titulo {
+	opacity: 1;
+	/*font-size: 60px;*/
+	text-align: center;
+	color: #65b4e4;
+	font-family: font-titulo;
+}
+
+.parallax-container {
+	min-height: 500px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255, 255, 255, .9);
+	width: 100%;
+	padding: 0;
+}
+
+.parallax-container .section {
+	width: 100%;
+}
+
+.btn-div {
+	padding-right: 10.50px;
+}
+
+
+/*Icones redes sociais*/
+
+.icones-redes-sociais li {
+	display: inline-block;
+	float: right;
+	margin: 2px;
+}
+
+.icones-redes-sociais a {
+	margin: 0 auto;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 48px;
+	height: 48px;
+	display: block;
+	text-indent: -99999px;
+}
+
+.facebook {
+	background-image: url(../images/facebook.png);
+}
+
+.twitter {
+	background-image: url(../images/twitter.png);
+}
+
+.instagram {
+	background-image: url(../images/instagram.png);
+}
+
+section {
+	min-height: 500px;
+}
+
+.service {
+	text-align: center;
+}
+
+.service-ic {
+	margin: 0 auto;
+	width: 128px;
+	height: 128px;
+	background-image: url(../images/app.svg);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.service-app {
+	background-image: url(../images/app.svg);
+}
+
+.service-web {
+	background-image: url(../images/web.svg);
+}
+
+.service-code {
+	background-image: url(../images/code.svg);
+}
+
+p {
+	text-align: justify;
+}
